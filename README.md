@@ -85,7 +85,7 @@ While the Udemy course by *Robert Feranec* provided a strong foundation for recr
   Built **custom schematic symbols** and **footprints** for every component, ensuring full control over accuracy and alignment between schematic and layout.  
   Created libraries that can be reused across future projects.
 
-- **Wireless Integration & System Thinking:**  
+- **Integration & System Thinking:**  
   Designed and implemented a reliable hardware interface between **ATmega328P** and **ESP32-WROOM**, enabling **wireless communication (Wi-Fi + Bluetooth)** directly on the board.  
   Considered voltage compatibility, serial communication routing, and power domain separation between 5V (Arduino) and 3.3V (ESP32) systems.
 

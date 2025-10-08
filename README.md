@@ -3,7 +3,9 @@
 This project is a **custom Arduino Uno-based PCB designed in Altium Designer**, enhanced with **ESP32-WROOM** to enable **wireless communication via the ESP32 antenna**.  
 
 > **Note:** The base Arduino Uno board was recreated **following the Udemy course by Robert Feranec**, which guided me step-by-step through schematic capture, PCB layout, and generating manufacturing files.  
-> The **ESP32 wireless upgrade was designed and integrated independently**, without course guidance, showcasing additional hardware design and integration skills.  
+> The **ESP32 wireless upgrade was designed and integrated independently**, without course guidance, showcasing additional hardware design and integration skills.
+> 
+> **Tip:** To get a better view of the schematics and PCB layout, it is recommended to **download the PDF files and open them using Adobe Acrobat**.
 
 ---
 

@@ -1,6 +1,9 @@
 # 28Pins Project – Custom Arduino Board with ESP32 Wireless Upgrade
 
-This project is a **custom Arduino Uno-based PCB designed in Altium Designer**, enhanced with **ESP32-WROOM** to enable **wireless communication via the ESP32 antenna**.  
+This project is a **custom Arduino Uno–based PCB designed in Altium Designer**, enhanced with an **integrated ESP32-WROOM module**.  
+The ESP32 communicates **directly with the Arduino via UART**, allowing the Arduino to **operate independently while leveraging the ESP32 for wireless connectivity**.  
+This enables the board to send and receive data over **Wi-Fi and Bluetooth** without requiring additional modules, making it a **fully functional, wireless-capable development platform**.
+
 
 > **Note:** The base Arduino Uno board was recreated **following the Udemy course by Robert Feranec**, which guided me step-by-step through schematic capture, PCB layout, and generating manufacturing files.  
 > The **ESP32 wireless upgrade was designed and integrated independently**, without course guidance, showcasing additional hardware design and integration skills.
@@ -41,7 +44,20 @@ I started from the **Arduino Uno reference schematic** and went through the full
 - All schematic symbols and footprints created from scratch  
 - Manufacturing-ready outputs: Gerbers, BOM, Drill files  
 - Board variants with optional components  
-- Assembly documentation included  
+- Assembly documentation included
+
+**5. PCB Fabrication** 
+After completing the schematic and PCB layout design, I took the project one step further by **sending the board for fabrication through JLCPCB**.  
+This stage marked the transition from **digital design** to a **real, manufacturable prototype**.
+
+During this process I:
+- Exported **Gerber**, **BOM**, and **Pick & Place** data for assembly  
+- Learned about **DFM (Design for Manufacturing)** concepts such as hole sizing, tolerances, and copper clearances  
+- Gained valuable experience bridging **theory and hardware reality**, even knowing the first revision might require debugging  
+
+> This fabrication phase completed the learning cycle — from concept to a tangible PCB — providing real-world insight into professional hardware design.
+
+<img width="1435" height="369" alt="image" src="https://github.com/user-attachments/assets/9c16e787-fa08-450a-aa9e-a994b95cc16d" />
 
 ---
 

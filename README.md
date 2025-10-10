@@ -52,7 +52,7 @@ This stage marked the transition from **digital design** to a **real, manufactur
 
 During this process I:
 - Exported **Gerber**, **BOM**, and **Pick & Place** data for assembly  
-- Learned about **DFM (Design for Manufacturing)** concepts such as hole sizing, tolerances, and copper clearances  
+- Learned about DFM concepts such as hole sizing, tolerances, and copper clearances  
 - Gained valuable experience bridging **theory and hardware reality**, even knowing the first revision might require debugging  
 
 > This fabrication phase completed the learning cycle — from concept to a tangible PCB — providing real-world insight into professional hardware design.

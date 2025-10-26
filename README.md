@@ -59,6 +59,36 @@ During this process I:
 
 <img width="1435" height="369" alt="image" src="https://github.com/user-attachments/assets/9c16e787-fa08-450a-aa9e-a994b95cc16d" />
 
+**6. Prototype Status**
+The board I ordered from JLCPCB has **arrived and passed initial testing successfully**.  
+The bootloaders for both the ATmega16U2 and ATmega328P were programmed first, allowing me to verify that the Arduino Uno core functions correctly and run test code successfully.  
+After completing basic tests, I will proceed to test communication with the ESP32-WROOM module.
+
+This confirms that the design, layout, and component integration all function correctly in a real-world prototype, validating the end-to-end workflow from schematic creation to manufacturing.
+
+<!-- 1. Bare PCB -->
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/50e9ecc6-d3d4-4518-97ec-ae47a84cce4d" alt="Bare PCB" width="600"/>
+  <p><em>Bare PCB after fabrication, ready for component assembly.</em></p>
+</div>
+
+<!-- 2. Fully assembled PCB -->
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/db4e3b12-0cf6-45e3-98cf-9573659768fe" alt="Fully assembled PCB" width="600"/>
+  <p><em>PCB fully assembled with all components soldered.</em></p>
+</div>
+
+<!-- 3. PCB powered via USB -->
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/d4e0c546-2b5e-4f37-b644-52d6b4a4affa" alt="PCB powered via USB" width="600"/>
+  <p><em>PCB powered via USB, board is running correctly.</em></p>
+</div>
+
+<!-- 4. PCB communicating with LCD -->
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/794c815d-960e-4928-9615-620a186c999f" alt="PCB communicating with LCD" width="600"/>
+  <p><em>Basic test with LCD shows Arduino communicating successfully.</em></p>
+</div>
 ---
 
 ## Repository Contents
